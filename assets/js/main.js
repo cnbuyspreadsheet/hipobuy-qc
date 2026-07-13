@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.menu'),n=document.querySelector('.topbar nav');if(!b||!n)return;b.addEventListener('click',function(){var open=n.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false')});});
